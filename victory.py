@@ -30,7 +30,7 @@ while True:
     print('Количество правильных ответов: ', curr_answered)
     print('Количество ошибок: ', total - curr_answered)
     print('Процент правильных ответов: ', 100 * curr_answered / total)
-    print('Процент неправильных ответов: ', 1 - 100 * curr_answered / total)
+    print('Процент неправильных ответов: ', 1 - curr_answered / total)
 
     print()
     ans = input('Начать сначала [да/нет]?')
